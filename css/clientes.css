@@ -1,0 +1,92 @@
+/* Reset básico e estilos globais */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Título da página */
+  .clientes-registros-titulo {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Container da lista de clientes */
+  .clientes-lista {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Item da lista de clientes - todas as informações na mesma linha */
+  .cliente-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    white-space: nowrap;       /* Impede quebra de linha */
+    overflow-x: auto;          /* Permite scroll horizontal se necessário */
+  }
+  
+  .cliente-item:hover {
+    background: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Identificador do cliente */
+  .cliente-id {
+    font-size: 0.9rem;
+    color: #888;
+    margin-right: 1rem;
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  /* Foto do cliente */
+  .cliente-foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    border: 2px solid #002f6d;
+  }
+  
+  /* Informações do cliente (Nome, Email, Telefone) em linha */
+  .cliente-info {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    white-space: nowrap;
+  }
+  
+  .cliente-info span {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .cliente-info span strong {
+    color: #333;
+  }
+  
+  /* Ajuste responsivo opcional para telas muito pequenas */
+  @media (max-width: 600px) {
+    .cliente-info {
+      gap: 1rem;
+    }
+  }
+  

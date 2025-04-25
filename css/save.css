@@ -1,0 +1,1066 @@
+*{
+    
+}
+/* Estilos para a mensagem de boas-vindas */
+.admin-welcome {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.admin-welcome .heading {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.admin-welcome p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos para o header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Estilos gerais */
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 60px; /* Espaço extra para o header fixo */
+}
+.heading {
+    
+    text-align: center;
+}
+.heading2 {
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+}
+.form-container1{
+   
+    background: white;
+    padding: 0;
+    height: 14rem;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+
+}
+.form-container3{
+    background: white;
+    padding: 0;
+    height: 35rem;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 500px;
+    margin: 20px;
+}
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.form-container{
+    background: white;
+    padding: 0;
+    height: 41rem;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 500px;
+    margin: 20px;
+}
+.form-container4{
+    background: white;
+    padding: 0;
+    margin-top: 100px;
+    height: 28rem;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 500px;
+    margin: 120px;
+    position: fixed;
+    padding-top: 70px;
+}
+
+/* Estilos para inputs */
+.form-label1{
+    margin-top: 15px;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+.form-label5{
+    margin-top: 15px;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+.form-label3{
+    
+    display: block;
+    margin-left: 50px;
+    
+}
+.form-label {
+    margin-top: 100px;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 8px;
+    
+}
+
+.form-input {
+    margin-left: 50px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-file-input {
+    margin-bottom: 12px;
+}
+
+.form-submit {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos do Formulário */
+.form-input,
+.form-file-input,
+.form-submit {
+    margin-left: 50px;
+    width: calc(75% - 22px);
+}
+
+
+
+/* Estilos para a foto de perfil */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos para o card de informações do perfil */
+.profile-card {
+    
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    max-width: 400px;
+    margin-top: 100px;
+  
+    
+}
+
+.profile-card-title {
+    margin-top: 0;
+}
+
+.profile-card-info {
+    margin: 5px 0;
+}
+/* Estilos para a lista de clientes */
+.clientes-lista {
+    padding: 20px;
+}
+
+.cliente-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cliente-item:hover {
+    transform: translateY(-3px);
+}
+
+.cliente-id {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cliente-foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+@media (max-width:768px){
+    .cliente-foto{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+        
+    }
+}
+
+.cliente-info span {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/* Estilos para o menu de administração */
+.admin-menu {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+.admin-menu-link {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.admin-menu-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+/* Estilos para a mensagem de boas-vindas */
+.admin-welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.admin-welcome .heading {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.admin-welcome p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+/* Estilos para o header do administrador */
+.header-admin {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-admin-title {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.nav-admin-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-admin-link {
+    background-color: #34495e;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+}
+
+.nav-admin-link:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+
+
+
+
+.nav-admin-link {
+    
+     /* Ajuste o tamanho do texto e ícone */
+}
+
+.nav-admin-link i {
+    font-size: 18px; /* Tamanho do ícone */
+}
+
+.nav-admin-link:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+
+
+/* Estilos para a lista de eventos */
+.eventos-lista {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Ajuste para a lista de eventos ocupar toda a largura */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.evento-item {
+    
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.evento-item:hover {
+    transform: translateY(-3px);
+}
+
+.evento-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.evento-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.evento-info span {
+    display: block;
+}
+
+
+
+
+
+/* Estilos para o botão de expandir/minimizar formulário */
+.form-toggle-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px ;
+}
+
+.form-toggle-button:hover {
+    background-color: #666;
+}
+
+
+
+
+/* Estilos para o header do cliente */
+.header-cliente {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header-cliente-title {
+    margin: 0;
+}
+
+.nav-cliente-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-cliente-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.nav-cliente-link:hover {
+    background-color: #555;
+}
+/* Estilos para os botões de editar e excluir */
+.edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.edit-button img, .delete-button img {
+    width: 20px;
+    height: 20px;
+}
+
+-----------
+
+
+
+
+/* Estilos para o botão de expandir/minimizar formulário */
+.form-toggle-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.form-toggle-button:hover {
+    background-color: #666;
+}
+
+
+/* Estilos para os botões de ver, editar e excluir */
+.view-button, .edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Cor do botão Ver */
+.view-button {
+    color: blue;
+}
+
+.view-button:hover {
+    text-decoration: underline;
+}
+
+/* Cor do botão Editar */
+.edit-button {
+    color: green;
+}
+
+.edit-button:hover {
+    text-decoration: underline;
+}
+
+/* Cor do botão Excluir */
+.delete-button {
+    color: red;
+}
+
+.delete-button:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos específicos para o formulário de cadastro de ingressos */
+.ingressos-form-container {
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 500px;
+}
+
+.ingressos-form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.ingressos-form-input,
+.ingressos-form-submit {
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ingressos-form-input::placeholder {
+    color: #aaa;
+}
+
+.ingressos-form-submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ingressos-form-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos específicos para a lista de ingressos */
+.ingressos-lista {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.ingressos-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.ingressos-item:hover {
+    transform: translateY(-3px);
+}
+
+.ingressos-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ingressos-info span {
+    display: block;
+    color: #333;
+}
+
+/* Estilos específicos para a opção do evento no select */
+.ingressos-evento-option {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.ingressos-evento-option img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Estilos específicos para os detalhes do evento */
+.ingressos-event-details {
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.ingressos-event-details img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.ingressos-event-details p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Estilos para os botões de editar e excluir */
+.ingressos-edit-button, .ingressos-delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ingressos-edit-button {
+    color: green;
+}
+
+.ingressos-edit-button:hover {
+    text-decoration: underline;
+}
+
+.ingressos-delete-button {
+    color: red;
+}
+
+.ingressos-delete-button:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para o formulário de cadastro de aniversariantes */
+.aniversariantes-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.aniversariantes-form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.aniversariantes-form-input,
+.aniversariantes-form-submit {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.aniversariantes-form-input::placeholder {
+    color: #aaa;
+}
+
+.aniversariantes-form-submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aniversariantes-form-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos específicos para a lista de aniversariantes */
+.aniversariantes-lista {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aniversariante-item {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.aniversariante-item:hover {
+    transform: translateY(-3px);
+}
+
+.aniversariante-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aniversariante-info span {
+    display: block;
+    color: #333;
+}
+
+/* Estilos para os botões de excluir */
+.aniversariantes-delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    color: red;
+    text-decoration: underline;
+}
+
+.aniversariantes-delete-button:hover {
+    color: darkred;
+}
+.aniversariante-pic {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+/* Estilos específicos para o formulário de cadastro de clientes Paula */
+.clientes-paula-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+
+    max-width: 500px;
+}
+
+.clientes-paula-form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.clientes-paula-form-input,
+.clientes-paula-form-submit {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clientes-paula-form-input::placeholder {
+    color: #aaa;
+}
+
+.clientes-paula-form-submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clientes-paula-form-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos específicos para a lista de clientes Paula */
+.clientes-paula-lista {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cliente-paula-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+
+    margin-bottom: 10px;
+}
+
+.cliente-paula-item:hover {
+    transform: translateY(-3px);
+}
+
+.cliente-paula-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cliente-paula-info span {
+    display: block;
+    color: #333;
+}
+
+.cliente-paula-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.cliente-paula-id {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para os botões de excluir */
+.clientes-paula-delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    color: red;
+    text-decoration: underline;
+}
+
+.clientes-paula-delete-button:hover {
+    color: darkred;
+}
+
+/* Botão "VISUALIZAR INGRESSOS ADQUIRIDOS" */
+.visualizar-ingressos-visualizar-btn {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.visualizar-ingressos-visualizar-btn:hover {
+    background-color: #45a049; /* Verde escuro */
+}
+
+/* Botões "Autorizar Ingresso" e "Desautorizar Ingresso" */
+.visualizar-ingressos-btn, .visualizar-ingressos-desautorizar-btn {
+    background-color: #34495e; /* Azul escuro */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.visualizar-ingressos-btn:hover, .visualizar-ingressos-desautorizar-btn:hover {
+    background-color: #2c3e50; /* Azul mais escuro */
+}
+
+/* Estilos da Tabela */
+.visualizar-ingressos-tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.visualizar-ingressos-tabela, 
+.visualizar-ingressos-tabela-th, 
+.visualizar-ingressos-tabela-td {
+    border: 1px solid #ddd;
+}
+
+.visualizar-ingressos-tabela-th, 
+.visualizar-ingressos-tabela-td {
+    padding: 15px;
+    text-align: left;
+}
+
+.visualizar-ingressos-tabela-th {
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+}
+
+.visualizar-ingressos-tabela-tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.visualizar-ingressos-tabela-tr:hover {
+    background-color: #ecf0f1;
+}
+
+/* Estilos para a imagem do evento no card de ingressos */
+.comprar-ingresso-card-img-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilos específicos para a página de compra de ingressos */
+.comprar-ingresso-body-custom {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.comprar-ingresso-card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.comprar-ingresso-card-custom:hover {
+    transform: translateY(-5px);
+}
+
+.comprar-ingresso-card-title-custom {
+    font-size: 1.5rem;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.comprar-ingresso-card-text-custom {
+    font-size: 1rem;
+    color: #666;
+}
+
+.comprar-ingresso-btn-primary-custom {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.comprar-ingresso-btn-primary-custom:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.alert {
+    font-size: 1.2rem;
+}
+/* Estilos para a imagem do evento no card de ingressos */
+/* Estilos para a imagem do evento no card de ingressos */
+.comprar-ingresso-card-img-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/* Container da miniatura da imagem */
+.comprar-ingresso-thumbnail-container {
+    position: relative;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    overflow: hidden;
+    border-radius: 50%; /* Para ter miniaturas redondas */
+    margin: 0 auto 10px auto; /* Centraliza e adiciona margem inferior */
+}
+
+/* Container da miniatura da imagem */
+.comprar-ingresso-thumbnail-container {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    overflow: hidden;
+    margin: 0 auto 10px auto; /* Centraliza e adiciona margem inferior */
+}
+
+/* Estilos para a miniatura da imagem do evento */
+.comprar-ingresso-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
